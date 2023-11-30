@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-image: url('cvc.jpg'); /* Substitua 'background-image.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 50px;
+    height: 80vh;
+}
+
+button {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Cor do texto */
+    border: 2px transparent #2980b9; /* Borda personalizada */
+    padding: 20px 30px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    transition: background-color 0.3s, border-color 0.3s; /* Transição de cor e borda */
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+button:active {
+    background-color: #3498db; /* Restaura a cor original ao clicar */
+    border-color: #1f618d; /* Borda mais escura ao clicar */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
